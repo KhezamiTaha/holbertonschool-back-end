@@ -18,7 +18,7 @@ def TO_DO(employee_id):
         if task["completed"]:
             completed_tasks.append(task["title"])
     print(f"Employee {employee_name} is done with tasks"
-      f"({len(completed_tasks)}/{len(employee_todos_list)}):")
+          f"({len(completed_tasks)}/{len(employee_todos_list)}):")
 
     for task in completed_tasks:
         print(f"\t {task}")
